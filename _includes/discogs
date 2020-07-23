@@ -1,0 +1,4 @@
+{% capture release_id %}{{ include.release }}{% endcapture %}
+
+<p><a href="https://www.discogs.com/release/{{ release_id }}">View on Discogs</a></p>
+
