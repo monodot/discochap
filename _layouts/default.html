@@ -1,36 +1,49 @@
+{%- if page.title -%}
+  {%- assign seo_title = page.title | append: " " | append: title_separator | append: " " | append: site.title -%}
+{%- endif -%}
+
+{% if page.canonical_url %}
+  {%- assign canonical_url = page.canonical_url %}
+{% else %}
+  {%- assign canonical_url = page.url | replace: "index.html", "" | absolute_url %}
+{% endif %}
+
+{%- assign page_og_image = page.image | absolute_url -%}
+
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="en">
 
-  {%- include head.html -%}
+<head>
+    <title>{% if page.title %}{{ page.title | strip_html }} | {% endif %}{{ site.title }}</title>
+    <meta charset="utf-8"/>
+    <link href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css"/>
+    <!-- This defines the width of the browser viewport as the device's width itself (for nice rendering on mobile!) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="{{ site.baseurl }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed"/>
 
-  <body>
+    {% seo %}
 
-    {%- include header.html -%}
+    {% include tools/fathom.html %}
+</head>
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
+<body class="{{ page.layout }}">
+    <header>
+        {% include nav.html nav="main" %}
+    </header>
+    <main>
         {{ content }}
-      </div>
     </main>
+    <div style="clear: both;"></div>
+    <footer>
+        <hr/>
+        <section>
+            <p><strong>{{ site.title }}.</strong> {{ site.description }}</p>
+            <p><a href="/about">About this site</a></p>
+        </section>
+    </footer>
 
-    {%- include footer.html -%}
-
-<!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
-<script>
-(function(f, a, t, h, o, m){
-	a[h]=a[h]||function(){
-		(a[h].q=a[h].q||[]).push(arguments)
-	};
-	o=f.createElement('script'),
-	m=f.getElementsByTagName('script')[0];
-	o.async=1; o.src=t; o.id='fathom-script';
-	m.parentNode.insertBefore(o,m)
-})(document, window, '//fathom.mndt.co.uk/tracker.js', 'fathom');
-fathom('set', 'siteId', 'DJYRH');
-fathom('trackPageview');
-</script>
-<!-- / Fathom -->
-
-  </body>
+    {% include tools/isso.html %}
+</body>
 
 </html>

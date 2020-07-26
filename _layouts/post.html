@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+{% if page.image contains "://" %}
+  {% capture img_path %}{{ page.image }}{% endcapture %}
+{% else %}
+  {% capture img_path %}{{ page.image | relative_url }}{% endcapture %}
+{% endif %}
+
+{% if img_path != "" %}
+  {% capture img_figure %}<figure><img src="{{ img_path }}" alt="{{ page.title | strip_html }}"/></figure>{% endcapture %}
+{% endif %}
+
+{% capture page_tags %}{% for tag in page.tags %}{{ tag | downcase }}|{{ tag }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% assign tag_hashes = page_tags | split: ',' | sort %}
+
+{% assign related_posts = site.posts | where: "popular",true %}
+
+<section class="post">
+    <article itemscope itemtype="http://schema.org/CreativeWork">
+        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+        {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+        {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%d %B %Y" }}">{% endif %}
+        {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date: "%B %d, %Y" }}">{% endif %}
+
+        <header>
+            <h1>{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
+
+            {% comment %}
+            <p class="lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+            {% endcomment %}
+
+            {{ img_figure }}
+
+{% comment %}
+            <p>
+                <i class="tag"></i> Tags:
+                <span itemprop="keywords">
+                    {% for hash in tag_hashes %}
+                        {% assign keyValue = hash | split: '|' %}
+                        {% capture tag_word %}{{ keyValue[1] | strip_newlines }}{% endcapture %}
+                        <a href="{{ tag_word | slugify | prepend: path_type | prepend: site.tag_archive.path | relative_url }}" rel="tag">{{ tag_word }}</a>{% unless forloop.last %}<span class="sep">, </span>{% endunless %}
+                    {% endfor %}
+                </span>
+            </p>
+{% endcomment %}
+        </header>
+
+        <section>
+            {{ content }}
+        </section>
+
+        <footer>
+            {% if page.credits %}<p><small>
+              {% for credit in page.credits %}
+                  {{ credit.text }}{% if credit.link %}<a href="{{ credit.link }}">&nearr;</a>{% endif %} &nbsp;
+              {% endfor %}
+            </small></p>{% endif %}
+        </footer>
+    </article>
+
+    {% if site.isso_baseurl and jekyll.environment == "production" and page.comments %}
+    <section>
+        <h2>Comments</h2>
+        <p>What do you think? You can use <a href="https://daringfireball.net/projects/markdown/syntax">Markdown</a> in your comment.</p>
+        <section id="isso-thread"></section>
+        <noscript>If you want to see or add comments to this article, please enable JavaScript.</noscript>
+    </section>
+    {% endif %}
+
+</section>

@@ -10,21 +10,19 @@ tags:
 
 Few other labels have contributed so much to disco's heritage than Salsoul Records. Founded in New York City in 1974, Salsoul released about 300 singles and left a significant mark on our disco heritage!
 
-The sibling owners of Salsoul previously [ran a ladies' lingerie factory in Florida][lingerie]. However here are 7 amazing tracks on Salsoul Records which are far more interesting than lingerie.
+The sibling founders of Salsoul previously [ran a ladies' lingerie factory in Florida][lingerie]. However here are seven amazing tracks on Salsoul Records which are _far_ more interesting than lingerie.
 
 ## First Choice - Let No Man Put Asunder
 
-_It's not over, between you and me_
+> I did overdubs on it, and the drums and the bass were really in your face <cite>Shep Pettibone</cite>
 
 This track, released in 1977, debuted on First Choice's album _Delusions_. The most famous version is Shep Pettibone's 8-minute mix. Some even say this track may have **given birth to house music itself**. And with a breakdown in the middle that was sampled everywhere, it's easy to see why!
 
-> I did overdubs on it, and the drums and the bass were really in your face -- Shep Pettibone
+_It's not over, between you and me..._
 
 {% include video id="jOGFSOqLycY" provider="youtube" %}
 
 {% include discogs release="79313" %}
-
-Sampled: **ABSOLUTELY EVERYWHERE**
 
 ## Double Exposure - Ten Per Cent
 
@@ -40,9 +38,11 @@ Released in 1976, this was the first ever _commercially-available_ 12-inch singl
 
 The Salsoul Orchestra was Salsoul's house orchestra; the equivalent of Philadelphia International's _MFSB_. In fact, the orchestra consisted of many members from MFSB itself, who moved to Salsoul. They played on recordings for the label's artists, but they also released works of their own, including this 1982 track, which was actually a rework of a previous song. As detailed in _Life and Death on the New York Dance Floor_, Shep Pettibone took elements from Salsoul Orchestra's 1975 _Chicago Bus Stop_ and reworked them into this track. It's obvious that rap was emerging at the time, given the spoken vocals on this track too.
 
-> Plaintiff’s expert opines that the Horn Hit in Vogue could only have been sampled from Love Break.
+> Plaintiff’s expert opines that the Horn Hit in Vogue could only have been sampled from Love Break. <cite>Proceedings from VMG Salsoul, LLC v. Madonna Louise Ciccone, 2013</cite>
 
-The song made an unexpected appearance in the courts in 2012 when VMG, the rights owners of Love Break, [sued Madonna unsuccessfully][legal] for unauthorised sampling of the track in _Vogue_. According to _Last Night A DJ Saved My Life_, the song was also sampled by Danny Krivit for his bootleg mix of Love Is The Message by MFSB in 1987.
+The song made an unexpected appearance in the courts in 2013 when VMG, the rights owners of Love Break, [sued Madonna unsuccessfully][legal] for unauthorised sampling of the track in _Vogue_.
+
+According to _Last Night A DJ Saved My Life_, the song was also sampled by Danny Krivit for his bootleg mix of Love Is The Message by MFSB in 1987.
 
 {% include video id="HkDmbJegNpw" provider="youtube" %}
 

@@ -1,0 +1,89 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+:root {
+    --border-feint: #ccc;
+    --brand-font-family: Arial, Helvetica, sans-serif;
+    --font-family: 'EB Garamond', serif;
+    --heading-font-family: 'Corben', serif;
+    --root-font-size: 20px;
+    --line-height: 1.75;
+    --width-content: 760px;
+}
+
+html {
+    font-size: var(--root-font-size);
+}
+
+body {
+    font-family: var(--font-family);
+    line-height: var(--line-height);
+    margin: 2rem;
+}
+
+main, header, footer {
+    margin: 0 auto;
+    max-width: var(--width-content);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font-family);
+    font-weight: normal;
+}
+
+h1 {
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+h2 {
+    margin-top: 2rem;
+}
+
+a.site-title {
+    font-family: var(--brand-font-family);
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    color: grey;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+blockquote {
+    border-top: solid 3px var(--border-feint);
+    border-bottom: solid 3px var(--border-feint);
+    margin: 2rem 0;
+    font-weight: bold;
+}
+blockquote cite {
+    font-size: small;
+    font-weight: normal;
+}
+
+figure.full {
+    // width: 100vw;
+    // margin-left: 50%;
+}
+
+img {
+    max-width: 100%;
+}
+
+div.responsive-video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+div.responsive-video-container iframe, div.responsive-video-container object, div.responsive-video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

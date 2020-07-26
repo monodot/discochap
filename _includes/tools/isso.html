@@ -1,0 +1,4 @@
+{% if site.isso_baseurl and jekyll.environment == "production" and page.comments %}
+  <script data-isso="{{ site.isso_baseurl }}"
+          src="{{ site.isso_baseurl }}/js/embed.min.js"></script>
+{% endif %}
