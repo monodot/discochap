@@ -66,7 +66,7 @@ This 1981 post-disco record needs very little introduction! But I'm going to wri
 
 ## Loleatta Holloway - Hit And Run
 
-> You can't hit and run, gotta be number one
+_You can't hit and run, gotta be number one_
 
 In disco's prime, this was released in 1977. Mixed by Walter Gibbons, the 'Special DJ version' goes for 11 minutes.
 

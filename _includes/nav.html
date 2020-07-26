@@ -1,7 +1,10 @@
 {% assign navigation = site.data.navigation[include.nav] %}
 
 <nav>
-    <a href="/" rel="home" class="site-title">{{ site.title }}</a>
+    <a href="/" rel="home" class="site-title">
+      <img src="{{ site.baseurl }}/assets/img/discochap-logo.png" width="50" height="25"/>
+      <span>{{ site.title }} - {{ site.tagline }}</span>
+    </a>
     <ul>
         {% for nav in navigation %}
           <li><a href="{{ nav.url }}">{{ nav.title }}</a></li>

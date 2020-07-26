@@ -1,4 +1,5 @@
-title: The Disco Chap
+title: "The Disco Chap"
+tagline: "A blog about disco"
 email: hello@discochap.com
 description: >- # this means to ignore newlines until "baseurl:"
   A blog about all things disco, from the 1970s to the present day.
@@ -38,7 +39,9 @@ defaults:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-#exclude:
+exclude:
+  - assets/src
+
 #  - .sass-cache/
 #  - .jekyll-cache/
 #  - gemfiles/

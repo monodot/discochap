@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h1>This is a blog about disco music.</h1>
+<h1>This is a blog about<br/>disco music.</h1>
 
 <figure class="full">
   <img src="{{ site.baseurl }}/assets/img/home-record.jpg"/>
