@@ -15,11 +15,24 @@ plugins:
 
 permalink: /:title/
 
+collections:
+  shownotes:
+    output: true
+    permalink: /:title
+
 defaults:
   -
     scope:
       path: "" # an empty string here means all files in the project
-      type: "posts" # previously `post` in Jekyll 2.2.
+      type:
+        - "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: post
+      sidebar: true
+      comments: true
+  - scope:
+      path: ""
+      type: "shownotes"
     values:
       layout: post
       sidebar: true
