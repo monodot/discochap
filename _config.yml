@@ -54,6 +54,7 @@ defaults:
 #
 exclude:
   - assets/src
+  - build.sh
 
 #  - .sass-cache/
 #  - .jekyll-cache/
