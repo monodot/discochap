@@ -1,6 +1,7 @@
 ---
 title: "7 amazing tracks on Salsoul Records"
 excerpt: Selected tracks associated with the legendary New York City label
+layout: post
 categories:
 - Tracks
 tags:
