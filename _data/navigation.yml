@@ -1,0 +1,7 @@
+main:
+  - title: "Podcast"
+    url: "/podcast/"
+  - title: "Books"
+    url: "/books/"
+  - title: "About"
+    url: "/about/"

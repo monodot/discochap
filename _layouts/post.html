@@ -34,13 +34,6 @@ layout: default
         <header>
             <h1>{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
 
-            <p>
-              <a href="https://www.facebook.com/sharer/sharer.php?u={{ canonical_url }}" target="_blank">Share on Facebook</a>
-              |
-              <a
-  href="https://twitter.com/intent/tweet?url={{ canonical_url }}" target="_blank">Share on Twitter</a>
-            </p>
-
             {% comment %}
             <p class="lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
             {% endcomment %}
@@ -61,9 +54,9 @@ layout: default
 {% endcomment %}
         </header>
 
-        <section>
+        <div>
             {{ content }}
-        </section>
+        </div>
 
         <footer>
             {% if page.credits %}<p><small>

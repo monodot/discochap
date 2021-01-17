@@ -16,7 +16,6 @@
 <head>
     <title>{% if page.title %}{{ page.title | strip_html }} | {% endif %}{{ site.title }}</title>
     <meta charset="utf-8"/>
-    <link href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css"/>
     <!-- This defines the width of the browser viewport as the device's width itself (for nice rendering on mobile!) -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -25,6 +24,9 @@
     {% seo %}
 
     {% include tools/fathom.html %}
+
+    {% include scripts-head.html %}
+
 </head>
 
 <body class="{{ page.layout }}">
@@ -36,17 +38,16 @@
     </main>
     <div style="clear: both;"></div>
     <footer>
-        <hr/>
-        <section>
-            <p><strong>{{ site.title }}.</strong> {{ site.description }}</p>
-            <p>
-              <a href="/about">About this site</a>
-              | <a href="https://www.facebook.com/thediscochap">Follow on Facebook</a>
-            </p>
-        </section>
+        <p><strong>{{ site.title }}.</strong> {{ site.description }}</p>
+        <p>
+          <a href="/about">About this site</a>
+          | <a href="https://www.facebook.com/thediscochap">Follow on Facebook</a>
+        </p>
     </footer>
 
     {% include tools/isso.html %}
+
+    {% include scripts-footer.html %}
 </body>
 
 </html>

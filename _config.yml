@@ -19,6 +19,10 @@ collections:
   shownotes:
     output: true
     permalink: /:title
+  playlists:
+    permalink: /playlists/:title  
+  books:
+    output: false
 
 defaults:
   -
