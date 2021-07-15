@@ -53,10 +53,10 @@ body > header {
 
     nav {
         max-width: var(--width-nav);
+        margin: 0 auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 0 auto;
 
         > a {
             flex-grow: 1;
@@ -80,8 +80,8 @@ body > footer {
 }
 
 main, footer {
-    // margin: 0 auto;
-    // max-width: var(--width-content);
+    margin: 0 auto;
+    max-width: var(--width-content);
 }
 
 main > section > article > div {
