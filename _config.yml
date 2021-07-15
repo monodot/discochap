@@ -1,10 +1,10 @@
 title: "The Disco Chap"
-tagline: "A blog about disco"
+tagline: "DJ and disco culture"
 email: hello@discochap.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A blog about all things disco, from the 1970s to the present day.
+  A blog about disco and DJ culture, from the 1970s to the present day.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://discochap.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:
 
