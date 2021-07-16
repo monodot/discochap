@@ -1,0 +1,34 @@
+{% assign posts = site.posts | sort: "featured" %}
+
+<ul class="post-grid">
+    {% for post in site.posts %}
+        {% if post.featured %}
+            <li>
+                <article>
+                    <div>
+                        <a href="{{ post.url | absolute_url }}" role="presentation" tabindex="0">
+                            <div>
+                                {% if post.thumb %}
+                                    <img loading="lazy" alt="{{ post.title }}" itemprop="image" role="presentation" 
+                                        src="{{ post.thumb.src }}" width="{{ post.thumb.width }}" height="{{ post.thumb.height }}"/>
+                                {% else %}
+                                    <p style="width: 309px; height: 186px; background: #FCDFEC; margin-top: 0;"></p>
+                                {% endif %}
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <h3>
+                            <a href="{{ post.url | absolute_url }}" aria-label="{{ post.title }}">{{ post.title }}</a>
+                        </h3>
+                        <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%d %B %Y" }}</time>
+                        <!-- <p class="_11cf4f1a">by Harry Sawyers</p> -->
+                        <div class="excerpt">
+                            <p>{{ post.excerpt }}</p>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>

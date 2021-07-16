@@ -1,22 +1,17 @@
 ---
-layout: page
+layout: landing
+title: Dance music and DJ culture
+show_title: false
 ---
 
-<h1>Welcome, disco lover.</h1>
+# Enjoy disco. Get DJ inspired.
 
-<figure class="full">
-  <img src="{{ site.baseurl }}/assets/img/home-record.jpg"/>
-</figure>
+Welcome, you've stumbled upon _Disco Chap_. This website is a loving _homage_ to disco, dance music and DJ culture. [Read more about this website and who's behind it &rarr;][about]
 
-<h2>Latest posts</h2>
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <p><a href="{{ post.url }}">{{ post.title }}</a></p>
-      <p>{{ post.excerpt }}</p>
-    </li>
-  {% endfor %}
-</ul>
+<hr/>
+
+{% include post_grid.html %}
 
 
-<p><span>Main photo by <a href="https://unsplash.com/@skylarfaithfilm?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Skylar Sahakian</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
+
+[about]: /about/
