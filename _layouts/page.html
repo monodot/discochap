@@ -25,7 +25,9 @@ layout: default
         {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date: "%B %d, %Y" }}">{% endif %}
 
         <header>
+            {% unless page.show_title == false %}
             <h1>{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
+            {% endunless %}
 
             {% comment %}
             <p class="lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
