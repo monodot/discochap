@@ -1,7 +1,8 @@
 ---
-title: "7 amazing tracks on Salsoul Records"
+title: "The Best Tracks on Salsoul Records"
 excerpt: Selected tracks associated with the legendary New York City label
 layout: post
+featured: 90
 categories:
 - Tracks
 tags:
