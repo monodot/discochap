@@ -8,21 +8,23 @@ permalink: /about/
 
 Welcome to Disco Chap! This is a website all about disco, dance music, the art of DJing, and vinyl culture.
 
-Hi, I'm Tom Donohue, website founder and editor. I've been a bedroom and occasional club [DJ][ca] on-and-off for over 20 years, and I love dance music _with an absolute passion_. I've travelled for music festivals across Europe, I've run a [website devoted to clubbing][cscot], I've organised club nights, presented radio shows, and back in the day I DJ'd to a packed club most weekends, sometimes warming up for _dubious_ acts like the Vengaboys...
+Hi, I'm [Tom Donohue][twitter], website founder and editor. I've been a bedroom and occasional club [DJ][ca] on-and-off for over 20 years, and I love dance music _with an absolute passion_. I've travelled for music festivals across Europe, I've run a [website devoted to clubbing][cscot], I've organised club nights, presented radio shows, and back in the day I DJ'd to a packed club most weekends, sometimes warming up for _dubious_ acts like the Vengaboys...
 
-Now my main goal with _Disco Chap_ is to collect and share my love and knowledge of music and DJ culture with you. Whether you're a veteran DJ, or a newbie looking to get started, I hope you find something you like here.
+In 2020, I wanted to start a web site around my passions, but I didn't know which subject to pick. And then I remembered that I'd done all of those things years ago. And so I knew I had to start a website about disco and DJing.
 
-## The Disco Chap's current DJing setup
+My goal with _Disco Chap_ is to collect and share my love and knowledge of music and DJ culture. So whether you're a veteran DJ, or a newbie looking to get started, I hope you find something you like here.
 
-My DJ setup hasn't changed much over the years! Only my mixer has changed a couple of times. If you're interested, my current setup in 2021 looks like this:
+## What's the Disco Chap's current DJ setup?
 
-- **Turntables:** 2 x Technics SL-1200 turntables. I blew my first student loan on these DJ decks, and they've been faithful to me ever since! I love the silver finish and they are simply rock-solid. A classic piece of engineering!
+My DJ setup hasn't changed much over the years! Only my mixer has changed a couple of times. If you're interested, my current setup looks like this in 2021:
 
-- **Mixer:** [MasterSounds Radius 2][radius2]. This is a gorgeous rotary mixer which I picked up during the lockdowns of 2020. It's incredibly smooth and gives a beautiful sound. I really enjoy playing it.
+- **Turntables:** 2 x Technics SL-1200 turntables. I blew my first student loan on these DJ turntables, and despite moving from city to city, they've been faithful to me ever since! I love the silver finish and they are simply rock-solid. A classic piece of engineering! (Excuse me while I continue to stroke my chin.)
 
-- **Vinyl controller:** [Traktor Audio 6][audio6] with Traktor DJ software on Mac. I like to play a mix of vinyl and digital, and my preference is to use a digital vinyl system (DVS). With this controller, I can flip between playing analogue vinyl and digital downloads, playing both using my Technics turnables. Dreamy! The response in Traktor is great for me and I'm really happy with this setup.
+- **Mixer:** [MasterSounds Radius 2][radius2]. This is a gorgeous rotary mixer which I picked up during the lockdowns of 2020. It's soooo smooth and gives a beautiful sound. I enjoy playing it.
 
-- **Software:** I use [Loopback from Rogue Amoeba for macOS][loopback] which allows me to route audio to different apps (e.g. if I need to stream audio to Twitch)
+- **Vinyl controller:** [Traktor Audio 6][audio6] with Traktor Pro 3 software on Mac. I like to play a mix of vinyl and digital, and my preference is to use a digital vinyl system (DVS). With the Audio 6 + Traktor Pro, I can flip between playing analogue vinyl or digital files, using my Technics turnables as the control surface. Dreamy. The beauty of digital, but analogue!
+
+- **Software:** I use [Loopback from Rogue Amoeba for macOS][loopback] which allows me to route audio feeds to different apps (e.g. if I need to stream audio to Twitch)
 
 ## Where does the name 'Disco Chap' come from?
 
@@ -48,3 +50,5 @@ I hope you enjoy browsing, just as much as I enjoy making this site for you.
 [loopback]: https://rogueamoeba.com/loopback/
 [cscot]: https://web.archive.org/web/20040605191132/http://www.cscot.com/
 [ca]: https://cheeseanalogue.com/
+[twitter]: https://twitter.com/monodot
+
