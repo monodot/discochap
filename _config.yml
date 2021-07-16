@@ -1,8 +1,8 @@
 title: "The Disco Chap"
-tagline: "DJ and disco culture"
+tagline: "DJ and dance music culture"
 email: hello@discochap.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A blog about disco and DJ culture, from the 1970s to the present day.
+  A blog about disco, dance music and DJ culture.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://discochap.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
