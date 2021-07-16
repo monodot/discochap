@@ -18,6 +18,7 @@
     --link-colour: #ED217C;
     --link-hover-colour: #F269A7;
     --link-underline-colour: #F7A1C8;
+    --text-feint: #999;
 }
 
 html {
@@ -137,6 +138,12 @@ blockquote cite {
 figure.full {
     // width: 100vw;
     // margin-left: 50%;
+}
+
+footer p.disclaimer {
+    font-size: 0.875rem;
+    font-style: italic;
+    color: var(--text-feint);
 }
 
 header > nav a {
