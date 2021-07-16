@@ -1,7 +1,8 @@
 ---
 title: A Timeline of Disco
-excerpt: See the history of how disco progressed in this timeline
+excerpt: This guide will help you see the key dates in the evolution of disco.
 layout: post
+featured: 50
 scripts:
 - d3
 ---
