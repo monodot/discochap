@@ -34,9 +34,11 @@ layout: default
         <header>
             <h1>{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
 
-            {% comment %}
-            <p class="lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
-            {% endcomment %}
+            {% if page.last_modified_at %}
+                <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">Last updated: {{ page.last_modified_at | date: "%B %d, %Y" }}</time>
+            {% else if page.date %}
+                <time datetime="{{ page.date | date: "%Y-%m-%d" }}">Published: {{ page.date | date: "%B %d, %Y" }}</time>
+            {% endif %}
 
             {{ img_figure }}
 
