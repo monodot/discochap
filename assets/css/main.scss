@@ -7,6 +7,8 @@
 @import url('https://rsms.me/inter/inter.css');
 @import 'assets/css/landing';
 @import 'assets/css/widgets';
+@import 'assets/css/article';
+
 
 :root {
     --border-feint: #ccc;
@@ -116,7 +118,7 @@ main > section > article > div {
 h1, h2, h3, h4, h5, h6 {
     line-height: 1.25;
     font-family: var(--heading-font-family);
-    font-weight: normal;
+    // font-weight: normal;
 }
 
 h1 {
@@ -125,7 +127,13 @@ h1 {
     text-align: center;
 }
 h2 {
-    margin-top: 2rem;
+    margin: 2.5rem 0;
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+h3 {
+    font-size: 1.25rem;
+    margin: 2rem 0;
 }
 
 a.site-title {
