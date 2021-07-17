@@ -12,6 +12,7 @@ github_username:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-last-modified-at
 
 permalink: /:title/
 
@@ -27,9 +28,9 @@ collections:
 defaults:
   -
     scope:
+      # This doesn't seem to do anything?
       path: "" # an empty string here means all files in the project
-      type:
-        - "posts" # previously `post` in Jekyll 2.2.
+      type: "posts" # previously `post` in Jekyll 2.2.
     values:
       layout: post
       sidebar: true
