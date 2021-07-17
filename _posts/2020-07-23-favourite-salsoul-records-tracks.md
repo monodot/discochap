@@ -1,6 +1,6 @@
 ---
-title: "The Best Tracks on Salsoul Records"
-excerpt: Selected tracks associated with the legendary New York City label
+title: "Our Favourite Tracks on Salsoul Records"
+excerpt: Have a listen to some of our favourite tracks from the legendary New York City label
 layout: post
 featured: 90
 categories:
